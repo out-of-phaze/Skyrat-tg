@@ -11,13 +11,10 @@
 	var/hacked = FALSE
 	var/disabled = FALSE
 	var/shocked = FALSE
-	var/hack_wire
-	var/disable_wire
 	var/error_message = ""
 	var/error_type = ""
 	var/disk_error = ""
 	var/disk_error_type = ""
-	var/shock_wire
 	var/timer_id
 	var/turbo_boost = FALSE
 	var/obj/item/ammo_box/loaded_magazine = null
